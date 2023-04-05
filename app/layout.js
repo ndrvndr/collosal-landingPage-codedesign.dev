@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex flex-col bg-[#0B0B22] items-center">
+      <body className="flex flex-col bg-[#0B0B22] items-center overflow-y-scroll">
         <nav className="w-[1026px] flex justify-between items-center mt-14 text-white">
           <div className="flex items-center">
             <Image src={Collosal} alt="Collosal Logo" className="mr-5"></Image>
@@ -27,7 +27,28 @@ export default function RootLayout({ children }) {
             Contact
           </button>
         </nav>
+
         {children}
+
+        <div className="text-white space-y-7">
+          <hr className="w-[1024px] border-0.5 border-white border-opacity-10" />
+          <div className="flex justify-between">
+            <span className="font-bold text-3xl">
+              We&apos;ve prepared everything, it&apos;s time <br /> for you to
+              tell the problem
+            </span>
+            <div>
+              <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[10px]">
+                Send Quote
+              </button>
+              <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10">
+                Ask Us
+              </button>
+            </div>
+          </div>
+          <hr className="border-0.5 border-white border-opacity-10" />
+        </div>
+
         <footer className="h-[440px] text-white flex items-center">
           <div className="w-[901px] flex justify-between">
             <div>

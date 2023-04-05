@@ -19,6 +19,8 @@ import Avatar1 from "../public/avatar/Avatar1.svg";
 import Avatar2 from "../public/avatar/Avatar2.svg";
 import Avatar3 from "../public/avatar/Avatar3.svg";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="text-white flex flex-col items-center">
@@ -39,9 +41,11 @@ export default function Home() {
       </section>
 
       <div className="flex justify-center text-white">
-        <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[20px]">
-          Send Quote
-        </button>
+        <Link href="./Quote">
+          <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[20px]">
+            Send Quote
+          </button>
+        </Link>
         <button className="w-[202px] h-[52px] bg-[#fff] bg-opacity-10">
           Learn More
         </button>
@@ -321,25 +325,6 @@ export default function Home() {
           <div className="w-[10px] h-[10px] bg-[#3C3C4E] rounded-full"></div>
         </div>
       </section>
-
-      <div className="space-y-7">
-        <hr className="w-[1024px] border-0.5 border-white border-opacity-10" />
-        <div className="flex justify-between">
-          <span className="font-bold text-3xl">
-            We&apos;ve prepared everything, it&apos;s time <br /> for you to
-            tell the problem
-          </span>
-          <div>
-            <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[10px]">
-              Send Quote
-            </button>
-            <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10">
-              Ask Us
-            </button>
-          </div>
-        </div>
-        <hr className="border-0.5 border-white border-opacity-10" />
-      </div>
     </main>
   );
 }
