@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <footer className="h-[440px] text-white flex items-center">
           <div className="w-[901px] flex justify-between">
             <div>
-              <div className="flex mb-5">
+              <div className="flex mb-7">
                 <Image
                   src={CollosalFooter}
                   alt="Collosal Logo"
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
             </div>
             <div>
               <span>SERVICES</span>
-              <ul className="text-white text-opacity-60 mt-3">
+              <ul className="text-white text-opacity-60 mt-5 space-y-3">
                 <li className="mb-1">Web Development</li>
                 <li className="mb-1">App Developement</li>
                 <li className="mb-1">UI Design</li>
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
             </div>
             <div>
               <span>COMPANY</span>
-              <ul className="text-white text-opacity-60">
+              <ul className="text-white text-opacity-60 mt-5 space-y-3">
                 <li className="mb-1">About</li>
                 <li className="mb-1">Contact</li>
                 <li className="mb-1">Send Quote</li>
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
             </div>
             <div>
               <span>RESOURCES</span>
-              <ul className="text-white text-opacity-60">
+              <ul className="text-white text-opacity-60 mt-5 space-y-3">
                 <li className="mb-1">Support</li>
                 <li className="mb-1">Documentation</li>
                 <li className="mb-1">License</li>

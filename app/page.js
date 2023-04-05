@@ -5,13 +5,19 @@ const inter = Inter({ subsets: ["latin"] });
 import Design from "../public/design.svg";
 import Develop from "../public/develop.svg";
 import Ship from "../public/ship.svg";
+
 import GithubLogo from "../public/company-logo/GithubLogo.svg";
 import ForbesLogo from "../public/company-logo/Forbes.comLogo.svg";
 import GoogleLogo from "../public/company-logo/GoogleLogo.svg";
 import MicrosoftLogo from "../public/company-logo/MicrosoftLogo.svg";
 import FacebookLogo from "../public/company-logo/FacebookLogo.svg";
+
 import HowWeWork from "../public/howWeWorkIllustration.svg";
 import TeamIllustration from "../public/teamIllustration.svg";
+
+import Avatar1 from "../public/avatar/Avatar1.svg";
+import Avatar2 from "../public/avatar/Avatar2.svg";
+import Avatar3 from "../public/avatar/Avatar3.svg";
 
 export default function Home() {
   return (
@@ -127,24 +133,52 @@ export default function Home() {
 
       <section>
         <div className="flex flex-col items-center">
-          <span className="text-[#16FCD2]">PROJECTS</span>
+          <span className="text-[#16FCD2] mb-[1.25rem]">PROJECTS</span>
           <span className="text-center font-bold text-xl leading-relaxed">
             We have completed many <br /> amazing projects that you will <br />
             not believe
           </span>
         </div>
 
-        <div>
+        <div className="flex mt-[83px] space-x-4">
           <div>
-            <div></div>
+            <div className="w-[502px] h-[441px] bg-[#161629] flex flex-col items-center justify-end">
+              <div className="bg-[#212136] w-[154px] h-[26px] rounded-full"></div>
+              <div className="bg-[#212136] w-[94px] h-[26px] rounded-full mb-[66px] mt-[14px]"></div>
+              <div className="bg-[#212136] w-[194px] h-[256px] rounded-t-3xl"></div>
+            </div>
+            <div className="flex flex-col items-center mt-12">
+              <span className="font-bold">The Mobile App Landing Page</span>
+              <span className="text-white text-opacity-60 text-sm mt-4 mb-9">
+                A landing page for mobile app
+              </span>
+              <button className="border-2 rounded-full px-8 py-2">
+                Detail
+              </button>
+            </div>
           </div>
-          <div></div>
+          <div>
+            <div className="w-[502px] h-[441px] bg-[#161629] flex flex-col items-center justify-end">
+              <div className="bg-[#212136] w-[154px] h-[26px] rounded-full"></div>
+              <div className="bg-[#212136] w-[94px] h-[26px] rounded-full mb-[66px] mt-[14px]"></div>
+              <div className="bg-[#212136] w-[368px] h-[256px] rounded-t-3xl"></div>
+            </div>
+            <div className="flex flex-col items-center mt-12">
+              <span className="font-bold">The Desktop App Landing Page</span>
+              <span className="text-white text-opacity-60 text-sm mt-4 mb-9">
+                A landing page for desktop app
+              </span>
+              <button className="border-2 rounded-full px-8 py-2">
+                Detail
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="mt-[110px] bg-[#221048] flex flex-col items-center px-36 pt-24 pb-36 rounded-3xl">
+      <section className="mt-[110px] mb-[110px] bg-[#221048] flex flex-col items-center px-36 pt-24 pb-36 rounded-3xl">
         <div className="flex flex-col items-center">
-          <span className="text-[#16FCD2]">GET STARTED</span>
+          <span className="text-[#16FCD2] mb-[1.25rem]">GET STARTED</span>
           <span className="text-center font-bold text-xl leading-relaxed">
             What do you need? Choose a <br /> service that can help you
           </span>
@@ -215,6 +249,97 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="flex flex-col items-center">
+        <div className="flex flex-col items-center mb-[148px]">
+          <span className="text-[#16FCD2] mb-[1.25rem]">TESTIMONIAL</span>
+          <span className="text-center font-bold text-xl leading-relaxed">
+            What do our clients says that we <br /> never let down?
+          </span>
+        </div>
+
+        <div className="flex space-x-5 mb-[75px]">
+          <div className="bg-[#16172C] w-[415px] h-[447px] flex flex-col items-center">
+            <div className="relative w-fit mt-[61px]">
+              <Image src={Avatar1} alt="Avatar 1"></Image>
+              <div className="w-[28px] h-[28px] bg-[#6016FC] rounded-full absolute right-0 bottom-[0px] text-center font-bold text-2xl">
+                &quot;
+              </div>
+            </div>
+            <span className="font-bold mt-5 mb-1">Courtney Henry</span>
+            <span className="text-white text-opacity-60 mb-8">
+              Biffco Enterprise Ltd.
+            </span>
+            <p className="text-white text-opacity-60 text-center mb-[61px]">
+              &quot;Very easy to use. I made back the <br />
+              purchase price in just 48 hours! It&apos;s great.
+              <br /> It&apos;s is both attractive and highly <br />
+              adaptable.&quot;
+            </p>
+          </div>
+
+          <div className="bg-[#16172C] w-[415px] h-[447px] flex flex-col items-center relative top-[-42px]">
+            <div className="relative w-fit mt-[61px]">
+              <Image src={Avatar2} alt="Avatar 2"></Image>
+              <div className="w-[28px] h-[28px] bg-[#6016FC] rounded-full absolute right-0 bottom-[0px] text-center font-bold text-2xl">
+                &quot;
+              </div>
+            </div>
+            <span className="font-bold mt-5 mb-1">Esther Howard</span>
+            <span className="text-white text-opacity-60 mb-8">
+              Abstergo Ltd.
+            </span>
+            <p className="text-white text-center mb-[61px]">
+              &quot;Your company is truly upstanding and is <br />
+              behind its product 100%. It&apos;s the perfect
+              <br /> solution for our business. It has really <br />
+              helped our business.&quot;
+            </p>
+          </div>
+
+          <div className="bg-[#16172C] w-[415px] h-[447px] flex flex-col items-center">
+            <div className="relative w-fit mt-[61px]">
+              <Image src={Avatar3} alt="Avatar 3"></Image>
+              <div className="w-[28px] h-[28px] bg-[#6016FC] rounded-full absolute right-0 bottom-[0px] text-center font-bold text-2xl">
+                &quot;
+              </div>
+            </div>
+            <span className="font-bold mt-5 mb-1">Ronald Richards</span>
+            <span className="text-white text-opacity-60 mb-8">Barone LLC.</span>
+            <p className="text-white text-opacity-60 text-center mb-[61px]">
+              &quot;I am really satisfied with it. I&apos;m good to <br />
+              go. It really saves me time and effort. It&apos;s
+              <br /> is exactly what our business has been <br />
+              lacking.&quot;
+            </p>
+          </div>
+        </div>
+
+        <div className="flex space-x-2 mb-[110px]">
+          <div className="w-[10px] h-[10px] bg-white rounded-full"></div>
+          <div className="w-[10px] h-[10px] bg-[#3C3C4E] rounded-full"></div>
+          <div className="w-[10px] h-[10px] bg-[#3C3C4E] rounded-full"></div>
+        </div>
+      </section>
+
+      <div className="space-y-7">
+        <hr className="w-[1024px] border-0.5 border-white border-opacity-10" />
+        <div className="flex justify-between">
+          <span className="font-bold text-3xl">
+            We&apos;ve prepared everything, it&apos;s time <br /> for you to
+            tell the problem
+          </span>
+          <div>
+            <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[10px]">
+              Send Quote
+            </button>
+            <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10">
+              Ask Us
+            </button>
+          </div>
+        </div>
+        <hr className="border-0.5 border-white border-opacity-10" />
+      </div>
     </main>
   );
 }
