@@ -15,7 +15,7 @@ import TeamIllustration from "../public/teamIllustration.svg";
 
 export default function Home() {
   return (
-    <main className="text-white">
+    <main className="text-white flex flex-col items-center">
       <section className="flex flex-col items-center mt-[100px]">
         <div className="flex flex-col justify-center items-center mb-[40px]">
           <span className="text-[#16FCD2] mb-7">CLIENT-DEVELOPMENT DRIVEN</span>
@@ -31,6 +31,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+
       <div className="flex justify-center text-white">
         <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[20px]">
           Send Quote
@@ -39,6 +40,7 @@ export default function Home() {
           Learn More
         </button>
       </div>
+
       <div className="flex space-x-4 mt-[100px] mb-[60px] text-white">
         <div className="w-[328px] h-[276px] bg-white bg-opacity-5 p-9 flex flex-col space-y-5">
           <Image src={Design} alt="Design Icon"></Image>
@@ -72,8 +74,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className="space-y-7">
-        <hr className="border-0.5 border-white border-opacity-10" />
+        <hr className="w-[1024px] border-0.5 border-white border-opacity-10" />
         <div className="flex justify-center space-x-10">
           <Image src={GithubLogo} alt="Github Logo"></Image>
           <Image src={ForbesLogo} alt="Forbes Logo"></Image>
@@ -83,6 +86,7 @@ export default function Home() {
         </div>
         <hr className="border-0.5 border-white border-opacity-10" />
       </div>
+
       <section className="mt-[130px] flex items-center">
         <Image src={HowWeWork} alt="How We Work Illustration"></Image>
         <div className="space-y-5">
@@ -100,6 +104,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+
       <section className="mt-[130px] flex items-center space-x-20">
         <div className="space-y-5">
           <span className="text-[#16FCD2]">OUR TEAM</span>
@@ -116,6 +121,99 @@ export default function Home() {
           </button>
         </div>
         <Image src={TeamIllustration} alt="How We Work Illustration"></Image>
+      </section>
+
+      <hr className="w-[1024px] border-0.5 border-white border-opacity-10 my-[120px]" />
+
+      <section>
+        <div className="flex flex-col items-center">
+          <span className="text-[#16FCD2]">PROJECTS</span>
+          <span className="text-center font-bold text-xl leading-relaxed">
+            We have completed many <br /> amazing projects that you will <br />
+            not believe
+          </span>
+        </div>
+
+        <div>
+          <div>
+            <div></div>
+          </div>
+          <div></div>
+        </div>
+      </section>
+
+      <section className="mt-[110px] bg-[#221048] flex flex-col items-center px-36 pt-24 pb-36 rounded-3xl">
+        <div className="flex flex-col items-center">
+          <span className="text-[#16FCD2]">GET STARTED</span>
+          <span className="text-center font-bold text-xl leading-relaxed">
+            What do you need? Choose a <br /> service that can help you
+          </span>
+        </div>
+        <div className="flex mt-[90px] space-x-4">
+          <div className="bg-[#233679] w-[328px] h-[446px] rounded-xl flex flex-col items-center ">
+            <div className="flex justify-center space-x-10 mt-[58px]">
+              <b>UI Design</b>
+              <div className="flex flex-col">
+                <span className="text-white text-opacity-60 text-xs">
+                  Starting from
+                </span>
+                <b className="text-3xl">1200$</b>
+              </div>
+            </div>
+            <hr className="w-[234px] border-0.5 border-white border-opacity-10 my-[48px]" />
+            <ul className="flex flex-col items-center mb-[62px]">
+              <li>10 design pages</li>
+              <li>Well-documented</li>
+              <li>4 revisions</li>
+              <li>$100/additional page</li>
+            </ul>
+            <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
+              Detail
+            </button>
+          </div>
+          <div className="bg-[#233679] w-[328px] h-[446px] rounded-xl flex flex-col items-center">
+            <div className="flex justify-center space-x-10 mt-[58px]">
+              <b>Development</b>
+              <div className="flex flex-col">
+                <span className="text-white text-opacity-60 text-xs">
+                  Starting from
+                </span>
+                <b className="text-3xl">5000$</b>
+              </div>
+            </div>
+            <hr className="w-[234px] border-0.5 border-white border-opacity-10 my-[48px]" />
+            <ul className="flex flex-col items-center mb-[62px]">
+              <li>Web & Mobile</li>
+              <li>Well-documented</li>
+              <li>8 revisions</li>
+              <li>$1000/additional page</li>
+            </ul>
+            <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
+              Detail
+            </button>
+          </div>
+          <div className="bg-[#792366] w-[328px] h-[446px] rounded-xl flex flex-col items-center">
+            <div className="flex justify-center space-x-10 mt-[58px]">
+              <b>Maintenence</b>
+              <div className="flex flex-col">
+                <span className="text-white text-opacity-60 text-xs">
+                  Starting from
+                </span>
+                <b className="text-3xl">1200$</b>
+              </div>
+            </div>
+            <hr className="w-[234px] border-0.5 border-white border-opacity-10 my-[48px]" />
+            <ul className="flex flex-col items-center mb-[62px]">
+              <li>Daily Backup</li>
+              <li>3 hourses of maintenence</li>
+              <li>Including fixing</li>
+              <li>$50/additional hour</li>
+            </ul>
+            <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
+              Detail
+            </button>
+          </div>
+        </div>
       </section>
     </main>
   );
