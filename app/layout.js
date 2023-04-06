@@ -27,7 +27,9 @@ export default function RootLayout({ children }) {
           <ul className="flex w-[424px] justify-between text-white text-opacity-80">
             <li>Services</li>
             <li>How We Work</li>
-            <li>Projects</li>
+            <Link href="./Projects">
+              <li>Projects</li>
+            </Link>
             <li>About</li>
           </ul>
           <button className="w-[112px] h-[39px] bg-white bg-opacity-10 border-none rounded-sm">
