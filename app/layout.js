@@ -2,6 +2,7 @@ import "./globals.css";
 import Image from "next/image";
 import Collosal from "../public/collosalLogo.svg";
 import CollosalFooter from "../public/collosalFooter.svg";
+import Link from "next/link";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,36 +13,44 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex flex-col bg-[#0B0B22] items-center overflow-y-scroll">
-        <nav className="w-[1026px] flex justify-between items-center mt-14 text-white">
-          <div className="flex items-center">
-            <Image src={Collosal} alt="Collosal Logo" className="mr-5"></Image>
-            <b className="text-xl">Collosal.</b>
-          </div>
+        <nav className="w-[1026px] flex justify-between items-center mt-14 mb-[100px] text-white">
+          <Link href="./">
+            <div className="flex items-center">
+              <Image
+                src={Collosal}
+                alt="Collosal Logo"
+                className="mr-5"
+              ></Image>
+              <b className="text-xl">Collosal.</b>
+            </div>
+          </Link>
           <ul className="flex w-[424px] justify-between text-white text-opacity-80">
             <li>Services</li>
             <li>How We Work</li>
             <li>Projects</li>
             <li>About</li>
           </ul>
-          <button className="w-[112px] h-[39px] bg-white bg-opacity-10 border-none">
+          <button className="w-[112px] h-[39px] bg-white bg-opacity-10 border-none rounded-sm">
             Contact
           </button>
         </nav>
 
         {children}
 
-        <div className="text-white space-y-7">
+        <div className="text-white space-y-12 mt-[110px]">
           <hr className="w-[1024px] border-0.5 border-white border-opacity-10" />
-          <div className="flex justify-between">
-            <span className="font-bold text-3xl">
+          <div className="flex justify-between items-center">
+            <span className="font-bold text-3xl leading-relaxed">
               We&apos;ve prepared everything, it&apos;s time <br /> for you to
               tell the problem
             </span>
             <div>
-              <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[10px]">
-                Send Quote
-              </button>
-              <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10">
+              <Link href="./Quote">
+                <button className="w-[202px] h-[52px] bg-[#6016FC] mr-[10px] rounded-sm">
+                  Send Quote
+                </button>
+              </Link>
+              <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10 rounded-sm">
                 Ask Us
               </button>
             </div>

@@ -24,13 +24,15 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="text-white flex flex-col items-center">
-      <section className="flex flex-col items-center mt-[100px]">
+      <section className="flex flex-col items-center">
         <div className="flex flex-col justify-center items-center mb-[40px]">
-          <span className="text-[#16FCD2] mb-7">CLIENT-DEVELOPMENT DRIVEN</span>
-          <span className="text-white text-center text-3xl font-bold mb-7">
+          <span className="text-[#16FCD2] mb-7 text-lg">
+            CLIENT-DEVELOPMENT DRIVEN
+          </span>
+          <span className="text-white text-center text-3xl font-bold mb-7 leading-relaxed">
             We Design. We Develop. We Ship. <br /> In The Same Day.
           </span>
-          <p className="text-center text-white text-opacity-60">
+          <p className="text-center text-white text-opacity-60 leading-loose text-lg">
             We are committed to not making clients wait. We will deliver the
             work <br />
             as quickly as possible. Even on the same day. Even so, we do not{" "}
@@ -55,7 +57,7 @@ export default function Home() {
         <div className="w-[328px] h-[276px] bg-white bg-opacity-5 p-9 flex flex-col space-y-5">
           <Image src={Design} alt="Design Icon"></Image>
           <div>
-            <b>Design</b>
+            <b className="text-lg">Design</b>
             <p className="text-white text-opacity-60 leading-loose mt-1">
               The project interface will be <br /> designed first, our favorite
               tool <br /> is Figma.
@@ -65,7 +67,7 @@ export default function Home() {
         <div className="w-[328px] h-[276px] bg-white bg-opacity-5 p-9 flex flex-col space-y-5">
           <Image src={Develop} alt="Design Icon"></Image>
           <div>
-            <b>Develop</b>
+            <b className="text-lg">Develop</b>
             <p className="text-white text-opacity-60 leading-loose mt-1">
               Transform design and write <br /> business logic here. Choose
               <br />
@@ -76,7 +78,7 @@ export default function Home() {
         <div className="w-[328px] h-[276px] bg-white bg-opacity-5 p-9 flex flex-col space-y-5">
           <Image src={Ship} alt="Design Icon"></Image>
           <div>
-            <b>Ship</b>
+            <b className="text-lg">Ship</b>
             <p className="text-white text-opacity-60 leading-loose mt-1">
               After the work is complete, we <br /> will send the project and
               all its <br /> assets to you.
@@ -100,13 +102,13 @@ export default function Home() {
       <section className="mt-[130px] flex items-center">
         <Image src={HowWeWork} alt="How We Work Illustration"></Image>
         <div className="space-y-5">
-          <span className="text-[#16FCD2]">HOW WE WORK?</span>
-          <p className="font-bold text-2xl leading-relaxed">
+          <span className="text-[#16FCD2] text-lg">HOW WE WORK?</span>
+          <p className="font-bold text-3xl leading-relaxed">
             Everything is well planned, well <br /> designed and developed
             <br />
             wholeheartedly
           </p>
-          <p className="text-white text-opacity-60 leading-relaxed">
+          <p className="text-white text-opacity-60 leading-loose text-lg">
             Careful planning makes us confident, developed with best <br />
             practices so that the project can be maintained. We always test
             <br />
@@ -117,11 +119,11 @@ export default function Home() {
 
       <section className="mt-[130px] flex items-center space-x-20">
         <div className="space-y-5">
-          <span className="text-[#16FCD2]">OUR TEAM</span>
-          <p className="font-bold text-2xl leading-relaxed">
+          <span className="text-[#16FCD2] text-lg">OUR TEAM</span>
+          <p className="font-bold text-3xl leading-relaxed">
             We&apos;re a team of designers, <br /> engineers and analysts
           </p>
-          <p className="text-white text-opacity-60 leading-relaxed">
+          <p className="text-white text-opacity-60 leading-loose text-lg">
             Our team consists of many creative people. We are <br /> committed
             to maintaining quality work as well as <br /> speed. These creative
             people work together to create <br /> maximum work results.
@@ -137,8 +139,8 @@ export default function Home() {
 
       <section>
         <div className="flex flex-col items-center">
-          <span className="text-[#16FCD2] mb-[1.25rem]">PROJECTS</span>
-          <span className="text-center font-bold text-xl leading-relaxed">
+          <span className="text-[#16FCD2] mb-[1.25rem] text-lg">PROJECTS</span>
+          <span className="text-center font-bold text-3xl leading-relaxed">
             We have completed many <br /> amazing projects that you will <br />
             not believe
           </span>
@@ -152,8 +154,10 @@ export default function Home() {
               <div className="bg-[#212136] w-[194px] h-[256px] rounded-t-3xl"></div>
             </div>
             <div className="flex flex-col items-center mt-12">
-              <span className="font-bold">The Mobile App Landing Page</span>
-              <span className="text-white text-opacity-60 text-sm mt-4 mb-9">
+              <span className="font-bold text-lg">
+                The Mobile App Landing Page
+              </span>
+              <span className="text-white text-opacity-60 text-md mt-4 mb-9">
                 A landing page for mobile app
               </span>
               <button className="border-2 rounded-full px-8 py-2">
@@ -168,8 +172,10 @@ export default function Home() {
               <div className="bg-[#212136] w-[368px] h-[256px] rounded-t-3xl"></div>
             </div>
             <div className="flex flex-col items-center mt-12">
-              <span className="font-bold">The Desktop App Landing Page</span>
-              <span className="text-white text-opacity-60 text-sm mt-4 mb-9">
+              <span className="font-bold text-lg">
+                The Desktop App Landing Page
+              </span>
+              <span className="text-white text-opacity-60 text-md mt-4 mb-9">
                 A landing page for desktop app
               </span>
               <button className="border-2 rounded-full px-8 py-2">
@@ -182,15 +188,17 @@ export default function Home() {
 
       <section className="mt-[110px] mb-[110px] bg-[#221048] flex flex-col items-center px-36 pt-24 pb-36 rounded-3xl">
         <div className="flex flex-col items-center">
-          <span className="text-[#16FCD2] mb-[1.25rem]">GET STARTED</span>
-          <span className="text-center font-bold text-xl leading-relaxed">
+          <span className="text-[#16FCD2] mb-[1.25rem] text-lg">
+            GET STARTED
+          </span>
+          <span className="text-center font-bold text-3xl leading-relaxed">
             What do you need? Choose a <br /> service that can help you
           </span>
         </div>
         <div className="flex mt-[90px] space-x-4">
           <div className="bg-[#233679] w-[328px] h-[446px] rounded-xl flex flex-col items-center ">
             <div className="flex justify-center space-x-10 mt-[58px]">
-              <b>UI Design</b>
+              <b className="text-md">UI Design</b>
               <div className="flex flex-col">
                 <span className="text-white text-opacity-60 text-xs">
                   Starting from
@@ -199,7 +207,7 @@ export default function Home() {
               </div>
             </div>
             <hr className="w-[234px] border-0.5 border-white border-opacity-10 my-[48px]" />
-            <ul className="flex flex-col items-center mb-[62px]">
+            <ul className="flex flex-col items-center mb-[40px] space-y-2">
               <li>10 design pages</li>
               <li>Well-documented</li>
               <li>4 revisions</li>
@@ -211,7 +219,7 @@ export default function Home() {
           </div>
           <div className="bg-[#233679] w-[328px] h-[446px] rounded-xl flex flex-col items-center">
             <div className="flex justify-center space-x-10 mt-[58px]">
-              <b>Development</b>
+              <b className="text-md">Development</b>
               <div className="flex flex-col">
                 <span className="text-white text-opacity-60 text-xs">
                   Starting from
@@ -220,7 +228,7 @@ export default function Home() {
               </div>
             </div>
             <hr className="w-[234px] border-0.5 border-white border-opacity-10 my-[48px]" />
-            <ul className="flex flex-col items-center mb-[62px]">
+            <ul className="flex flex-col items-center mb-[40px] space-y-2">
               <li>Web & Mobile</li>
               <li>Well-documented</li>
               <li>8 revisions</li>
@@ -232,7 +240,7 @@ export default function Home() {
           </div>
           <div className="bg-[#792366] w-[328px] h-[446px] rounded-xl flex flex-col items-center">
             <div className="flex justify-center space-x-10 mt-[58px]">
-              <b>Maintenence</b>
+              <b className="text-md">Maintenence</b>
               <div className="flex flex-col">
                 <span className="text-white text-opacity-60 text-xs">
                   Starting from
@@ -241,7 +249,7 @@ export default function Home() {
               </div>
             </div>
             <hr className="w-[234px] border-0.5 border-white border-opacity-10 my-[48px]" />
-            <ul className="flex flex-col items-center mb-[62px]">
+            <ul className="flex flex-col items-center mb-[40px] space-y-2">
               <li>Daily Backup</li>
               <li>3 hourses of maintenence</li>
               <li>Including fixing</li>
@@ -256,8 +264,10 @@ export default function Home() {
 
       <section className="flex flex-col items-center">
         <div className="flex flex-col items-center mb-[148px]">
-          <span className="text-[#16FCD2] mb-[1.25rem]">TESTIMONIAL</span>
-          <span className="text-center font-bold text-xl leading-relaxed">
+          <span className="text-[#16FCD2] mb-[1.25rem] text-lg">
+            TESTIMONIAL
+          </span>
+          <span className="text-center font-bold text-3xl leading-relaxed">
             What do our clients says that we <br /> never let down?
           </span>
         </div>
@@ -270,11 +280,11 @@ export default function Home() {
                 &quot;
               </div>
             </div>
-            <span className="font-bold mt-5 mb-1">Courtney Henry</span>
-            <span className="text-white text-opacity-60 mb-8">
+            <span className="font-bold mt-5 mb-1 text-lg">Courtney Henry</span>
+            <span className="text-white text-opacity-60 mb-8 text-md">
               Biffco Enterprise Ltd.
             </span>
-            <p className="text-white text-opacity-60 text-center mb-[61px]">
+            <p className="text-white text-opacity-60 text-center mb-[61px] text-lg leading-relaxed">
               &quot;Very easy to use. I made back the <br />
               purchase price in just 48 hours! It&apos;s great.
               <br /> It&apos;s is both attractive and highly <br />
@@ -289,11 +299,11 @@ export default function Home() {
                 &quot;
               </div>
             </div>
-            <span className="font-bold mt-5 mb-1">Esther Howard</span>
-            <span className="text-white text-opacity-60 mb-8">
+            <span className="font-bold mt-5 mb-1 text-lg">Esther Howard</span>
+            <span className="text-white text-opacity-60 mb-8 text-md">
               Abstergo Ltd.
             </span>
-            <p className="text-white text-center mb-[61px]">
+            <p className="text-white text-center mb-[61px] text-lg leading-relaxed">
               &quot;Your company is truly upstanding and is <br />
               behind its product 100%. It&apos;s the perfect
               <br /> solution for our business. It has really <br />
@@ -308,9 +318,11 @@ export default function Home() {
                 &quot;
               </div>
             </div>
-            <span className="font-bold mt-5 mb-1">Ronald Richards</span>
-            <span className="text-white text-opacity-60 mb-8">Barone LLC.</span>
-            <p className="text-white text-opacity-60 text-center mb-[61px]">
+            <span className="font-bold mt-5 mb-1 text-lg">Ronald Richards</span>
+            <span className="text-white text-opacity-60 mb-8 text-md">
+              Barone LLC.
+            </span>
+            <p className="text-white text-opacity-60 text-center mb-[61px] text-lg leading-relaxed">
               &quot;I am really satisfied with it. I&apos;m good to <br />
               go. It really saves me time and effort. It&apos;s
               <br /> is exactly what our business has been <br />
@@ -319,7 +331,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex space-x-2 mb-[110px]">
+        <div className="flex space-x-2">
           <div className="w-[10px] h-[10px] bg-white rounded-full"></div>
           <div className="w-[10px] h-[10px] bg-[#3C3C4E] rounded-full"></div>
           <div className="w-[10px] h-[10px] bg-[#3C3C4E] rounded-full"></div>
