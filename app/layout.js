@@ -25,7 +25,9 @@ export default function RootLayout({ children }) {
             </div>
           </Link>
           <ul className="flex w-[424px] justify-between text-white text-opacity-80">
-            <li>Services</li>
+            <Link href="./Services">
+              <li>Services</li>
+            </Link>
             <li>How We Work</li>
             <Link href="./Projects">
               <li>Projects</li>

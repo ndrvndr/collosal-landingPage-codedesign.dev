@@ -2,9 +2,9 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
-import Design from "../public/design.svg";
-import Develop from "../public/develop.svg";
-import Ship from "../public/ship.svg";
+import Design from "../public/icon/design.svg";
+import Develop from "../public/icon/develop.svg";
+import Ship from "../public/icon/ship.svg";
 
 import GithubLogo from "../public/company-logo/GithubLogo.svg";
 import ForbesLogo from "../public/company-logo/Forbes.comLogo.svg";
