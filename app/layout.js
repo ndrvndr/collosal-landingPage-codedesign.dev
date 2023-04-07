@@ -32,9 +32,11 @@ export default function RootLayout({ children }) {
             </Link>
             <li>About</li>
           </ul>
-          <button className="w-[112px] h-[39px] bg-white bg-opacity-10 border-none rounded-sm">
-            Contact
-          </button>
+          <Link href="./Contact">
+            <button className="w-[112px] h-[39px] bg-white bg-opacity-10 border-none rounded-sm">
+              Contact
+            </button>
+          </Link>
         </nav>
 
         {children}
@@ -52,9 +54,11 @@ export default function RootLayout({ children }) {
                   Send Quote
                 </button>
               </Link>
-              <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10 rounded-sm">
-                Ask Us
-              </button>
+              <Link href="./Contact">
+                <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10 rounded-sm">
+                  Ask Us
+                </button>
+              </Link>
             </div>
           </div>
           <hr className="border-0.5 border-white border-opacity-10" />
