@@ -1,8 +1,0 @@
-{
-  "/Contact/page": "app/Contact/page.js",
-  "/Projects/ProjectDetail/page": "app/Projects/ProjectDetail/page.js",
-  "/api/hello/route": "app/api/hello/route.js",
-  "/Projects/page": "app/Projects/page.js",
-  "/Quote/page": "app/Quote/page.js",
-  "/page": "app/page.js"
-}

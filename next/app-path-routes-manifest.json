@@ -1,8 +1,0 @@
-{
-  "/Contact/page": "/Contact",
-  "/Projects/ProjectDetail/page": "/Projects/ProjectDetail",
-  "/api/hello/route": "/api/hello",
-  "/Projects/page": "/Projects",
-  "/Quote/page": "/Quote",
-  "/page": "/"
-}
