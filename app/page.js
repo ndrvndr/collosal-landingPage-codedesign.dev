@@ -217,9 +217,11 @@ export default function Home() {
               <li>4 revisions</li>
               <li>$100/additional page</li>
             </ul>
-            <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
-              Detail
-            </button>
+            <Link href="./Pricing">
+              <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
+                Detail
+              </button>
+            </Link>
           </div>
           <div className="bg-[#233679] w-[328px] h-[446px] rounded-xl flex flex-col items-center">
             <div className="flex justify-center space-x-10 mt-[58px]">
@@ -238,9 +240,11 @@ export default function Home() {
               <li>8 revisions</li>
               <li>$1000/additional page</li>
             </ul>
-            <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
-              Detail
-            </button>
+            <Link href="./Pricing">
+              <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
+                Detail
+              </button>
+            </Link>
           </div>
           <div className="bg-[#792366] w-[328px] h-[446px] rounded-xl flex flex-col items-center">
             <div className="flex justify-center space-x-10 mt-[58px]">
@@ -259,9 +263,11 @@ export default function Home() {
               <li>Including fixing</li>
               <li>$50/additional hour</li>
             </ul>
-            <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
-              Detail
-            </button>
+            <Link href="./Pricing">
+              <button className="w-[234px] h-[52px] bg-white rounded-sm text-[#3F2379] font-semibold">
+                Detail
+              </button>
+            </Link>
           </div>
         </div>
       </section>
