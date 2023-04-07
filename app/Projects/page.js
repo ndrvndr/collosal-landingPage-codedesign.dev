@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <main className="flex flex-col items-center">
@@ -28,9 +30,11 @@ export default function Projects() {
             <span className="text-white text-opacity-60 text-md mt-4 mb-9">
               A landing page for mobile app
             </span>
-            <button className="text-white border-2 rounded-full px-8 py-2">
-              Detail
-            </button>
+            <Link href="./Projects/ProjectDetail">
+              <button className="text-white border-2 rounded-full px-8 py-2">
+                Detail
+              </button>
+            </Link>
           </div>
         </div>
         <div>
@@ -46,9 +50,11 @@ export default function Projects() {
             <span className="text-white text-opacity-60 text-md mt-4 mb-9">
               A landing page for desktop app
             </span>
-            <button className="text-white border-2 rounded-full px-8 py-2">
-              Detail
-            </button>
+            <Link href="./Projects/ProjectDetail">
+              <button className="text-white border-2 rounded-full px-8 py-2">
+                Detail
+              </button>
+            </Link>
           </div>
         </div>
         <div className="mr-5">
@@ -64,9 +70,11 @@ export default function Projects() {
             <span className="text-white text-opacity-60 text-md mt-4 mb-9">
               A landing page for desktop app
             </span>
-            <button className="text-white border-2 rounded-full px-8 py-2">
-              Detail
-            </button>
+            <Link href="./Projects/ProjectDetail">
+              <button className="text-white border-2 rounded-full px-8 py-2">
+                Detail
+              </button>
+            </Link>
           </div>
         </div>
         <div>
@@ -82,9 +90,11 @@ export default function Projects() {
             <span className="text-white text-opacity-60 text-md mt-4 mb-9">
               A landing page for mobile app
             </span>
-            <button className="text-white border-2 rounded-full px-8 py-2">
-              Detail
-            </button>
+            <Link href="./Projects/ProjectDetail">
+              <button className="text-white border-2 rounded-full px-8 py-2">
+                Detail
+              </button>
+            </Link>
           </div>
         </div>
       </div>

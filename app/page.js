@@ -160,9 +160,11 @@ export default function Home() {
               <span className="text-white text-opacity-60 text-md mt-4 mb-9">
                 A landing page for mobile app
               </span>
-              <button className="border-2 rounded-full px-8 py-2">
-                Detail
-              </button>
+              <Link href="./Projects/ProjectsDetail">
+                <button className="border-2 rounded-full px-8 py-2">
+                  Detail
+                </button>
+              </Link>
             </div>
           </div>
           <div>
@@ -178,9 +180,11 @@ export default function Home() {
               <span className="text-white text-opacity-60 text-md mt-4 mb-9">
                 A landing page for desktop app
               </span>
-              <button className="border-2 rounded-full px-8 py-2">
-                Detail
-              </button>
+              <Link href="./Projects/ProjectDetail">
+                <button className="border-2 rounded-full px-8 py-2">
+                  Detail
+                </button>
+              </Link>
             </div>
           </div>
         </div>
