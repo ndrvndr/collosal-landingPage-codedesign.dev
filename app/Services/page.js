@@ -70,7 +70,7 @@ export default function Services() {
                 </span>
               </div>
             </div>
-            <Link href="./Service/ServiceDetail">
+            <Link href="./Services/ServiceDetail">
               <div className="mt-[37px] flex items-end justify-end">
                 <span className="text-white text-xl mr-[25px]">
                   Service Detail
@@ -123,7 +123,7 @@ export default function Services() {
                 </div>
               </div>
             </div>
-            <Link href="./Service/ServiceDetail">
+            <Link href="./Services/ServiceDetail">
               <div className="mt-[37px] flex items-end justify-end">
                 <span className="text-white text-xl mr-[25px]">
                   Service Detail
@@ -185,7 +185,7 @@ export default function Services() {
                 </div>
               </div>
             </div>
-            <Link href="./Service/ServiceDetail">
+            <Link href="./Services/ServiceDetail">
               <div className="mt-[37px] flex items-end justify-end">
                 <span className="text-white text-xl mr-[25px]">
                   Service Detail

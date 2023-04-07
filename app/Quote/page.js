@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Quote() {
   return (
     <main className="text-white flex flex-col items-center">
@@ -13,9 +15,11 @@ export default function Quote() {
             company, and we are ready to answer these problems. It usually
             <br /> takes a few minutes for us to respond.
           </p>
-          <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10 rounded-sm">
-            Ask Us
-          </button>
+          <Link href="./Contact">
+            <button className="w-[162px] h-[52px] bg-[#fff] bg-opacity-10 rounded-sm">
+              Ask Us
+            </button>
+          </Link>
         </div>
 
         <div className="bg-white bg-opacity-5 w-[412px] h-[508px] px-[35px] pt-[52px] pb-[35px] flex flex-wrap rounded-md">
