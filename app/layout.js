@@ -77,7 +77,9 @@ export default function RootLayout({ children }) {
               </div>
               <div className="flex flex-col text-white text-opacity-60">
                 <span className="mb-1">Copyright &copy; 2021</span>
-                <span>Design By Collosal LLC</span>
+                <a href="https://www.figma.com/@mhd">
+                  <span>Design By Nauval on Figma</span>
+                </a>
               </div>
             </div>
             <div>
