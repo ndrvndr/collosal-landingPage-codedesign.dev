@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Collosal Landing Page-Live Demo
+
+The design does not include tablet or mobile versions, so opening via a laptop or desktop is recommended.
+
+The live demo can be accessed [here](https://collosal-landing-page-codedesign-dev.vercel.app/).
+
+## Credit
+
+The challenge to create this landing page is obtained from [codedesign.dev](https://codedesign.dev/). You can find the challenges and design assets used to create this page at [here](https://codedesign.dev/challenge/collosal).
+
+The UI and components on this landing page were created and designed by [Nauval at Figma](https://www.figma.com/@mhd). Please visit the designer's profile at https://www.figma.com/@mhd to see more of his creations.
+
 ## Getting Started
 
 First, run the development server:
@@ -36,4 +48,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # collosal-landingPage-codedesign.dev
