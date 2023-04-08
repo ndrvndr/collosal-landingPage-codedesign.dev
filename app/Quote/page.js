@@ -24,7 +24,7 @@ export default function Quote() {
 
         <div className="bg-white bg-opacity-5 w-[412px] h-[508px] px-[35px] pt-[52px] pb-[35px] flex flex-wrap rounded-md">
           <div className="flex flex-col mr-5 mb-4">
-            <label className="text-white text-opacity-60 mb-2" for="name">
+            <label className="text-white text-opacity-60 mb-2" htmlFor="name">
               Name
             </label>
             <input
@@ -34,7 +34,7 @@ export default function Quote() {
             ></input>
           </div>
           <div className="flex flex-col">
-            <label className="text-white text-opacity-60 mb-2" for="email">
+            <label className="text-white text-opacity-60 mb-2" htmlFor="email">
               Email
             </label>
             <input
@@ -44,7 +44,10 @@ export default function Quote() {
             ></input>
           </div>
           <div className="flex flex-col mr-5 mb-4">
-            <label className="text-white text-opacity-60 mb-2" for="company">
+            <label
+              className="text-white text-opacity-60 mb-2"
+              htmlFor="company"
+            >
               Company
             </label>
             <input
@@ -56,7 +59,7 @@ export default function Quote() {
           <div className="flex flex-col">
             <label
               className="text-white text-opacity-60 mb-2"
-              for="companySize"
+              htmlFor="companySize"
             >
               Company Size
             </label>
@@ -66,7 +69,10 @@ export default function Quote() {
             ></select>
           </div>
           <div className="flex flex-col mb-6">
-            <label className="text-white text-opacity-60 mb-2" for="problem">
+            <label
+              className="text-white text-opacity-60 mb-2"
+              htmlFor="problem"
+            >
               Tell Us Your Problem
             </label>
             <input
