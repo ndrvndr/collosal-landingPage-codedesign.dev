@@ -82,7 +82,9 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mt-[143px]">
+      <section className="mt-[143px] relative">
+        <div className="bg-[#240C28] w-[438.93px] h-[431.0px] rounded-full absolute right-[130px] top-[70px] -z-20 blur-3xl"></div>
+        <div className="bg-[#150D39] w-[356.61px] h-[350.19px] rounded-full absolute right-[-40px] top-[-100px] -z-10 blur-3xl"></div>
         <div className="flex justify-between items-center">
           <div>
             <div className="space-y-5">
@@ -136,7 +138,9 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mt-[143px] mb-[43px]">
+      <section className="mt-[143px] mb-[43px] relative">
+        <div className="bg-[#0C2535] w-[438.93px] h-[431.0px] rounded-full absolute left-[0px] top-[20px] -z-20 blur-3xl"></div>
+        <div className="bg-[#241B20] w-[356.61px] h-[350.19px] rounded-full absolute left-[280px] top-[-40px] -z-10 blur-3xl"></div>
         <div className="flex justify-between items-center">
           <Image src={serviceIllustration3} alt="Service Illustration"></Image>
           <div>

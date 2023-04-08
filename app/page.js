@@ -99,7 +99,10 @@ export default function Home() {
         <hr className="border-0.5 border-white border-opacity-10" />
       </div>
 
-      <section className="mt-[130px] flex items-center">
+      <section className="mt-[130px] flex items-center relative">
+        <div className="bg-[#241B20] w-[438.93px] h-[431.0px] rounded-full absolute left-[-30px] top-[80px] -z-20 blur-3xl"></div>
+        <div className="bg-[#0C2535] w-[356.61px] h-[350.19px] rounded-full absolute left-[280px] top-[-50px] -z-10 blur-3xl"></div>
+
         <Image src={HowWeWork} alt="How We Work Illustration"></Image>
         <div className="space-y-5">
           <span className="text-[#16FCD2] text-lg">HOW WE WORK?</span>
@@ -117,7 +120,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-[130px] flex items-center space-x-20">
+      <section className="mt-[130px] flex items-center space-x-20 relative">
+        <div className="bg-[#240C28] w-[438.93px] h-[431.0px] rounded-full absolute right-[130px] top-[70px] -z-20 blur-3xl"></div>
+        <div className="bg-[#150D39] w-[356.61px] h-[350.19px] rounded-full absolute right-[-40px] top-[-100px] -z-10 blur-3xl"></div>
         <div className="space-y-5">
           <span className="text-[#16FCD2] text-lg">OUR TEAM</span>
           <p className="font-bold text-3xl leading-relaxed">
@@ -272,7 +277,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center">
+      <section className="flex flex-col items-center relative">
+        <div className="bg-[#0C2535] w-[438.93px] h-[431.0px] rounded-full absolute right-[100px] top-[320px] -z-10 blur-3xl"></div>
+        <div className="bg-[#150D39] w-[356.61px] h-[350.19px] rounded-full absolute left-[75px] top-[280px] -z-10 blur-3xl"></div>
         <div className="flex flex-col items-center mb-[148px]">
           <span className="text-[#16FCD2] mb-[1.25rem] text-lg">
             TESTIMONIAL
@@ -283,7 +290,7 @@ export default function Home() {
         </div>
 
         <div className="flex space-x-5 mb-[75px]">
-          <div className="bg-[#16172C] w-[415px] h-[447px] flex flex-col items-center">
+          <div className="bg-white bg-opacity-5 w-[415px] h-[447px] flex flex-col items-center">
             <div className="relative w-fit mt-[61px]">
               <Image src={Avatar1} alt="Avatar 1"></Image>
               <div className="w-[28px] h-[28px] bg-[#6016FC] rounded-full absolute right-0 bottom-[0px] text-center font-bold text-2xl">
@@ -302,7 +309,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-[#16172C] w-[415px] h-[447px] flex flex-col items-center relative top-[-42px]">
+          <div className="bg-white bg-opacity-5 w-[415px] h-[447px] flex flex-col items-center relative top-[-42px]">
             <div className="relative w-fit mt-[61px]">
               <Image src={Avatar2} alt="Avatar 2"></Image>
               <div className="w-[28px] h-[28px] bg-[#6016FC] rounded-full absolute right-0 bottom-[0px] text-center font-bold text-2xl">
@@ -321,7 +328,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-[#16172C] w-[415px] h-[447px] flex flex-col items-center">
+          <div className="bg-white bg-opacity-5 w-[415px] h-[447px] flex flex-col items-center">
             <div className="relative w-fit mt-[61px]">
               <Image src={Avatar3} alt="Avatar 3"></Image>
               <div className="w-[28px] h-[28px] bg-[#6016FC] rounded-full absolute right-0 bottom-[0px] text-center font-bold text-2xl">

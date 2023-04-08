@@ -13,6 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex flex-col bg-[#0B0B22] items-center overflow-y-scroll">
+        <div className="bg-[#241B20] w-[885px] h-[870px] rounded-full absolute left-[-150px] top-[80px] -z-10 blur-3xl"></div>
+        <div className="bg-[#0C2535] w-[885px] h-[870px] rounded-full absolute left-[450px] top-[-50px] -z-20 blur-3xl"></div>
+        <div className="bg-[#240C28] w-[885px] h-[870px] rounded-full absolute left-[980px] top-[-200px] -z-10 blur-3xl"></div>
         <nav className="w-[1026px] flex justify-between items-center mt-14 mb-[100px] text-white">
           <Link href="./">
             <div className="flex items-center">

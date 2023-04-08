@@ -42,7 +42,9 @@ export default function ServiceDetail() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col items-center justify-center mt-[124px]">
+      <section className="flex flex-col items-center justify-center mt-[124px] relative">
+        <div className="bg-[#150D39] w-[532.11px] h-[522.54px] rounded-full absolute right-[130px] top-[240px] -z-20 blur-3xl"></div>
+        <div className="bg-[#240C28] w-[432.31px] h-[424.53px] rounded-full absolute left-[70px] top-[350px] -z-10 blur-3xl"></div>
         <span className="text-[#16FCD2] mb-7 text-lg">FEATURES</span>
         <span className="text-white text-center text-3xl font-bold leading-relaxed mb-[90px]">
           Here&apos;s what you will get when <br /> purchasing this service
