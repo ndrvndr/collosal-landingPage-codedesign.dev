@@ -35,7 +35,9 @@ export default function RootLayout({ children }) {
             <Link href="./Projects">
               <li>Projects</li>
             </Link>
-            <li>About</li>
+            <Link href="./About">
+              <li>About</li>
+            </Link>
           </ul>
           <Link href="./Contact">
             <button className="w-[112px] h-[39px] bg-white bg-opacity-10 border-none rounded-sm">
