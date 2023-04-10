@@ -64,34 +64,32 @@ export default function About() {
           </span>
         </div>
 
-        <div className="h-[157px] bg-white bg-opacity-5 flex items-center justify-center mb-[55px]">
-          <div className="flex items-center mr-12">
+        <div className="w-[1026px] h-[157px] bg-white bg-opacity-5 flex items-center justify-center mb-[55px]">
+          <div className="flex items-center">
             <div className="bg-white bg-opacity-5 w-[70px] h-[70px] flex items-center justify-center mr-10">
               <Image src={flag} alt="Flag Icon"></Image>
             </div>
-            <div className="flex flex-col mr-11">
+            <div className="flex flex-col">
               <span className="text-white font-bold text-3xl mb-1">8</span>
               <span className="text-white text-opacity-60 font-bold">
                 COUNTRIES
               </span>
             </div>
-            <div className="border-l-2 border-white border-opacity-5 h-16"></div>
           </div>
-
-          <div className="flex items-center mr-12">
+          <div className="border-l-2 border-white border-opacity-5 h-16 mx-16"></div>
+          <div className="flex items-center">
             <div className="bg-white bg-opacity-5 w-[70px] h-[70px] flex items-center justify-center mr-10">
               <Image src={user} alt="Flag Icon"></Image>
             </div>
-            <div className="flex flex-col mr-11">
+            <div className="flex flex-col">
               <span className="text-white font-bold text-3xl mb-1">193</span>
               <span className="text-white text-opacity-60 font-bold">
                 CLIENTS
               </span>
             </div>
-            <div className="border-l-2 border-white border-opacity-5 h-16"></div>
           </div>
-
-          <div className="flex items-center mr-12">
+          <div className="border-l-2 border-white border-opacity-5 h-16 mx-16"></div>
+          <div className="flex items-center">
             <div className="bg-white bg-opacity-5 w-[70px] h-[70px] flex items-center justify-center mr-10">
               <Image src={dollar} alt="Flag Icon"></Image>
             </div>
