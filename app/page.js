@@ -48,9 +48,11 @@ export default function Home() {
             Send Quote
           </button>
         </Link>
-        <button className="w-[202px] h-[52px] bg-[#fff] bg-opacity-10">
-          Learn More
-        </button>
+        <Link href="./HowWeWork">
+          <button className="w-[202px] h-[52px] bg-[#fff] bg-opacity-10">
+            Learn More
+          </button>
+        </Link>
       </div>
 
       <div className="flex space-x-4 mt-[100px] mb-[60px] text-white">
